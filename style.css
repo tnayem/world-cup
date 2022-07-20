@@ -276,6 +276,12 @@ footer {
     .header-text {
         margin-top: 0px;
     }
+    .view-all-button{
+        width: 11%;
+        margin: auto;
+        padding-bottom: 50px;
+        display: block;
+    }
 }
 
 /* table view responsive end*/
