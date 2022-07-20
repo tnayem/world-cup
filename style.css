@@ -1,0 +1,56 @@
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+h1{
+   font-size: 50px;
+   line-height: 20px;
+   color: white;
+}
+p{
+    color: white;
+    line-height: 15px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+/* header section start */
+.header-section{
+    display: flex;
+    background-color: #161616;
+    border-radius: 20px;
+    margin: 50px 100px;
+    padding: 30px 70px 0 70px;
+
+}
+.header-text{
+    width: 55%;
+    margin-top: 50px;
+    
+}
+.header-image{
+    width: 45%;
+}
+.header-image img{
+    width: 100%;
+    
+}
+.watch-btn{
+    background-color: #DD0000;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.watch-btn a{
+    color: #FFFFFF;
+}
+/* header section end */
+/* transfer-live-section start */
+/* transfer-live-section start */
