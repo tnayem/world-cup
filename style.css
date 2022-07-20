@@ -3,14 +3,22 @@ body{
     font-family: 'Poppins';
     margin: 0;
     padding: 0;
+    
+}
+.container{
+    width: 85%;
+    margin:0 auto;
 }
 h1{
    font-size: 50px;
    line-height: 20px;
    color: white;
 }
+h2{
+    font-size: 40px;
+}
 p{
-    color: white;
+    
     line-height: 15px;
 }
 a{
@@ -24,9 +32,12 @@ a{
     display: flex;
     background-color: #161616;
     border-radius: 20px;
-    margin: 50px 100px;
     padding: 30px 70px 0 70px;
+    margin: 50px 0;
 
+}
+header p{
+    color: #FFFFFF;
 }
 .header-text{
     width: 55%;
@@ -52,5 +63,98 @@ a{
     color: #FFFFFF;
 }
 /* header section end */
-/* transfer-live-section start */
-/* transfer-live-section start */
+/* blogs section start */
+.blogs{
+    display: flex;
+    
+    margin: 100px 0;
+    
+}
+/* blog area */
+.blog{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+
+}
+article{
+    border: 1px solid rgb(247, 240, 240);
+    border-radius: 8px;
+
+}
+.article-text{
+    margin: 20px;
+}
+article img{
+    width: 100%;
+}
+.article-text button{
+    padding: 4px 14px;
+    
+}
+.article-text button a{
+    color:#161616;
+    font-weight: 500;
+}
+/* navigation area */
+.navigation-section{
+    width: 25%;
+    height: 218px;
+    background-color: #161616;
+    border-radius: 15px;
+    padding: 20px 0;
+    margin-right:15px;
+}
+.navigation-btn{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.navigation-btn button{
+    padding: 15px 0;
+    margin: 10px 30px;
+    border-radius: 10px;
+    
+}
+.navigation-btn button a{
+    font-size: 16px;
+    color: #161616;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+/* blogs section end */
+/* footer section start */
+footer{
+    background: #161616;
+    padding: 50px 0;
+}
+.goal-section{
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
+}
+.goal-section h2{
+    text-align: center;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-text{
+    text-align: center;
+    margin: 30px 0;
+    
+}
+.footer-text a{
+    color: #B9B9B9;
+    margin: 15px;
+    font-size: 15px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon a{
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+/* footer section end */
